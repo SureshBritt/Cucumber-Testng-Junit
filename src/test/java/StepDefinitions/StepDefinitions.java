@@ -87,7 +87,10 @@ context.set("Username used", Username);
 System.out.println(" On SearchPage");
 	}
 
-
+	@When("(I|WE) Click on link(s) in the page")
+	public void i_click_on_in_the_page(String string) {
+	    System.out.println("Clicking on link in page");
+	}
 
 	@When("^I Click on Search$")
 	public void i_Click_on_Search() throws Throwable {

@@ -49,6 +49,10 @@ Then following data should be displayed
 |Table1|
 |Table2|
 
+Scenario: My scenario with optional steps words
+Given I m on login page
+When I Click on links in the page
+
 
 
 

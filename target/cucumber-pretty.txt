@@ -1,0 +1,10 @@
+
+@Smoke
+Scenario: My First Scenario             # file:///C:/Users/sures/eclipse-workspace/cucumber/src/test/resources/Features/MyFirstfeature.feature:8
+  ✔ Given I Load the Application URL    # StepDefinitions.StepDefinitions.i_load_the_application_url()
+  ✔ Given I m on login page             # StepDefinitions.StepDefinitions.i_m_on_login_page()
+  ✔ When I Enter "username" as username # StepDefinitions.StepDefinitions.EnterUsername(java.lang.String)
+  ✔ And I Enter "Password" as password  # StepDefinitions.StepDefinitions.i_EnterPwd(java.lang.String)
+  ✔ And I Click on Submit               # StepDefinitions.StepDefinitions.i_Click_on_Submit()
+  ✔ Then Login should be successful     # StepDefinitions.StepDefinitions.login_should_be_successful()
+  ✔ And I need to be on Homepage        # StepDefinitions.StepDefinitions.i_need_to_be_on_Homepage()

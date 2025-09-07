@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.154" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-09-07T20:26:17.008898900Z">
+<testcase classname="My First feature" name="My First Scenario" time="0.038">
+<system-out><![CDATA[
+Given I Load the Application URL............................................passed
+Given I m on login page.....................................................passed
+When I Enter "username" as username.........................................passed
+And I Enter "Password" as password..........................................passed
+And I Click on Submit.......................................................passed
+Then Login should be successful.............................................passed
+And I need to be on Homepage................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
